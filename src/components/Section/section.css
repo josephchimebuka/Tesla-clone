@@ -1,0 +1,73 @@
+.Section{
+    /* background-image: url('../../images-20220625T234900Z-001/images/model-3.jpg'); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header_text{
+    text-align: center;
+    padding-top: 15vh;
+}
+.header_text h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    font-style: normal;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.custom_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 720px) {
+    .custom_buttons{
+        flex-direction: column
+    }
+    
+}
+.custom_buttons .custom_but{
+    padding: 10px 50px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    opacity: 0.85;
+    width: 256px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    background-color: #393c41;
+    margin: 8px;
+    cursor: pointer;
+    
+}
+
+.custom_buttons .custom_but.b{
+    background-color: #fff;
+    color: #393c41;
+}
+
+.arrowbtn{
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    text-align: center;margin-bottom: 20px;
+    animation: animationDown infinite 1.5s
+}
